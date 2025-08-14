@@ -28,7 +28,6 @@ Alongside automation, the repository contains **manual test cases** covering pos
 └── README.md # Project documentation
 
 
-
 ---
 
 ## ✅ Features Automated  
@@ -64,22 +63,24 @@ Each test case includes:
    cd janitri-login-automation
 2. **Install Dependencies**
 Make sure you have Java JDK 8+ and Maven installed.
-```bash
-mvn clean install
+   ```bash
+   mvn clean install
 3. **Run Tests**
+   ```bash
 mvn test
 
 ## 🛠 Tools & Technologies
-
-Java 11
-
-Selenium WebDriver 4.x
-
-TestNG
-
-Maven
-
-Page Object Model (POM)
+   ```bash
+   
+   Java 11
+   
+   Selenium WebDriver 4.x
+   
+   TestNG
+   
+   Maven
+   
+   Page Object Model (POM)
 
 ##📌 Notes
 
