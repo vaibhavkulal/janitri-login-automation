@@ -66,6 +66,7 @@ Make sure you have Java JDK 8+ and Maven installed.
    Maven
    
    Page Object Model (POM)
+---
 
 ##📌 Notes
 
