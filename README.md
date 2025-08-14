@@ -12,21 +12,6 @@ It automates the **login page functionality** of the [Janitri Dashboard](https:/
 
 Alongside automation, the repository contains **manual test cases** covering positive, negative, UI, and boundary scenarios.  
 
----
-
-## 🗂 Repository Structure  
-├── screenshots/ # Screenshots of execution or UI
-├── src/ # Java source files
-│ ├── main/java/com/janitri/pages/ # Page Object classes
-│ │ └── LoginPage.java
-│ ├── test/java/com/janitri/tests/ # Test classes
-│ │ └── LoginTest.java
-│ └── base/BaseTest.java # Browser setup & teardown
-├── janitri_login_testcases.xlsx # Manual test cases
-├── pom.xml # Maven dependencies
-├── testng.xml # TestNG suite file
-└── README.md # Project documentation
-
 
 ---
 
@@ -67,7 +52,7 @@ Make sure you have Java JDK 8+ and Maven installed.
    mvn clean install
 3. **Run Tests**
    ```bash
-mvn test
+   mvn test
 
 ## 🛠 Tools & Technologies
    ```bash
